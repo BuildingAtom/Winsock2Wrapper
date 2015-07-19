@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1437243716 source:d:\github\winsock2wrapper\examples\simpleclient\main.cpp
+	"Winsock2Wrapper.h"
+	<iostream>
+
+1437237903 d:\github\winsock2wrapper\examples\simpleclient\winsock2wrapper.h
+	<WinSock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1437237882 source:d:\github\winsock2wrapper\examples\simpleclient\winsock2wrapper.cpp
+	"Winsock2Wrapper.h"
+	<WinSock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1437326629 source:d:\github\winsock2wrapper\examples\simpleclient\simpleclient\main.cpp
+	"Winsock2Wrapper.h"
+	<cstdio>
+
+1437325716 d:\github\winsock2wrapper\examples\simpleclient\simpleclient\winsock2wrapper.h
+	<WinSock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1437325716 source:d:\github\winsock2wrapper\examples\simpleclient\simpleclient\winsock2wrapper.cpp
+	"Winsock2Wrapper.h"
+	<WinSock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
