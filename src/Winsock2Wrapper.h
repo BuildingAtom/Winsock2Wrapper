@@ -45,26 +45,26 @@ public:
 	//Default constructor for the Winsock2Wrapper object
 	Winsock2Wrapper() : Winsock2Wrapper(DEFAULT_BUFLEN) {}
 	//Constructor for the Winsock2Wrapper object with custom buffer length
-	Winsock2Wrapper(int a);
+	Winsock2Wrapper(int);
 
 	//Destructor for the Winsock2Wrapper Object
 	~Winsock2Wrapper();
 
 	//Connect
-	int conn(std::string hostname, int port);
+	int conn(std::string, int);
 	//Overload for the above function that would connect to the defaults above
 	int conn();
 
 	//Send a packet of the message
-	int output(std::string message);
+	int output(std::string);
 
 	//Raw Receive (receive by packet)
 	//Socket is blocking! Will freeze program if called without anything in the buffer
 	//Receive until recvbufflen, or until end of message
-	int rawreceive(char * recvbuf, int recvbuflen);
+	int rawreceive(char*, int);
 
 	//Return all received data up to a deliminating character.
-	std::string readUntil(char delim);
+	std::string readUntil(char);
 
 	//Check if the socket is ready to receive
 	int receiveReady();
